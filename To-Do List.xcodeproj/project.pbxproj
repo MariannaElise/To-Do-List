@@ -16,6 +16,8 @@
 		4FA2C8AD26A73FB200A577A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2C8AB26A73FB200A577A5 /* LaunchScreen.storyboard */; };
 		4FA2C8B826A73FB200A577A5 /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8B726A73FB200A577A5 /* To_Do_ListTests.swift */; };
 		4FA2C8C326A73FB200A577A5 /* To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8C226A73FB200A577A5 /* To_Do_ListUITests.swift */; };
+		4FA2C8D126A742D300A577A5 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8D026A742D300A577A5 /* ToDoTableViewController.swift */; };
+		4FA2C8D326A7439000A577A5 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8D226A7439000A577A5 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4FA2C8BE26A73FB200A577A5 /* To-Do ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-Do ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA2C8C226A73FB200A577A5 /* To_Do_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITests.swift; sourceTree = "<group>"; };
 		4FA2C8C426A73FB200A577A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA2C8D026A742D300A577A5 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		4FA2C8D226A7439000A577A5 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,12 @@
 				4FA2C89F26A73FAF00A577A5 /* SceneDelegate.swift */,
 				4FA2C8A126A73FAF00A577A5 /* ViewController.swift */,
 				4FA2C8A326A73FAF00A577A5 /* Main.storyboard */,
+				4FA2C8D226A7439000A577A5 /* ToDo.swift */,
 				4FA2C8A926A73FB200A577A5 /* Assets.xcassets */,
 				4FA2C8AB26A73FB200A577A5 /* LaunchScreen.storyboard */,
 				4FA2C8AE26A73FB200A577A5 /* Info.plist */,
 				4FA2C8A626A73FAF00A577A5 /* To_Do_List.xcdatamodeld */,
+				4FA2C8D026A742D300A577A5 /* ToDoTableViewController.swift */,
 			);
 			path = "To-Do List";
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 				4FA2C8A226A73FAF00A577A5 /* ViewController.swift in Sources */,
 				4FA2C89E26A73FAF00A577A5 /* AppDelegate.swift in Sources */,
 				4FA2C8A026A73FAF00A577A5 /* SceneDelegate.swift in Sources */,
+				4FA2C8D326A7439000A577A5 /* ToDo.swift in Sources */,
 				4FA2C8A826A73FAF00A577A5 /* To_Do_List.xcdatamodeld in Sources */,
+				4FA2C8D126A742D300A577A5 /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
